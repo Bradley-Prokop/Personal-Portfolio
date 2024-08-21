@@ -97,33 +97,6 @@ footer{
     font-family: cursive;
 }
 
-/*media statements*/
-@media (max-width: 800px){
-
-    #headerAndList{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 100px;
-        margin: 0;
-    }
-
-    #java-logo{
-        padding-left: 55px;
-    }
-    
-    #projectContainer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0px;
-    }
-    .projectItems{
-        padding-top: 75px;
-        padding-left: 0px;
-    }
-}
-
 /* bottom half css */
 
 #second{
@@ -167,11 +140,26 @@ p{
 .cInfo{
     font-size: 25px;
     color: lime;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     margin-right: 15px;
     text-align: center;
 }
 
 footer{
     margin-top: 50px;
+}
+
+/*media statements*/
+@media (max-width: 1000px){
+
+    #program-and-header{
+        margin: auto;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+
+    #contact-title{
+        margin: auto;
+        margin-top: 5%;
+    }
 }
