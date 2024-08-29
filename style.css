@@ -1,0 +1,177 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+#titles{
+    font-family: 'Caveat', cursive;
+    text-align: center;
+}
+#title{
+    font-size: 50px;
+}
+#subtitle{
+    font-size: 45px;
+    margin-top: -35px;
+}
+hr{
+    border-color: lime;
+    width: 90%;
+}
+#techIMG{
+    height: 30%;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 25px;
+}
+.txt{
+    color: lime;
+}
+.txt2{
+    color: white;
+}
+.shadow{
+    font-family: 'Caveat', cursive;
+    text-shadow: 3px 2px rgb(2, 49, 2);
+}
+#header-And-List-container{
+   margin-top: 20px;
+   font-size: 25px;
+   text-align: center;
+   font-weight: bolder;
+   margin-left: 50px;
+}
+#howItStarted{
+    margin-top: 5%;
+}
+.div-listitem{
+   display: inline-block;
+}
+.lang-img{
+    border-radius: 15%;
+}
+#html-css-logo{
+    margin-right: 40px;
+    margin-left: 70px;
+}
+#python-logo{
+    margin-left: 50px;
+}
+#javascript-logo{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+#vue-logo{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+h1{
+    font-size: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+h2{
+    margin-top: 7%;
+    margin-bottom: -15px;
+    font-size: 35px;
+}
+h3{
+    margin-left: 20px;
+    font-size: 30px;
+}
+p{
+    text-indent: 25px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: 600;
+}
+.inline{
+    height: 150px;
+    width: 300px;
+    border-radius: 20%;
+    margin-top: 60px;
+    padding-left: 15px;
+}
+#contact-title{
+    margin-top: 100px;
+    border: 3px solid lime;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    width: 50%;
+    font-size: xx-large;
+    margin-left: 320px;
+}
+.cInfo{
+    font-size: 25px;
+    color: white;
+    margin-right: 15px;
+    text-align: center;
+}
+footer{
+    margin-top: 100px;
+}
+
+@keyframes color-change {
+    0% { color: red; }
+    14% {color: orangered;}
+    29% { color: yellow; }
+    42% {color: lime;}
+    57% {color: blue;}
+    73% {color: indigo;}
+    100% { color: purple;}
+  }
+
+@media (max-width: 800px){
+
+    #title{
+        font-size: 240%;
+    }
+    #subtitle{
+        font-size: 220%;
+        margin-top: 5%;
+        animation: color-change 10s infinite alternate;
+        text-shadow: 2px 1px white;
+    }
+    #program-and-header{
+        font-size: 100%;
+        margin-top: 10%;
+    }
+    .langLabel{
+        font-size: 20px;
+    }
+    .lang-img{
+        height: 50%;
+        width: 80%;
+    }
+    #header-And-List-container{
+        margin: auto;
+    }
+    #java-logo{
+        margin: auto;
+    }
+    #html-css-logo{
+        margin: auto;
+    }
+    #python-logo{
+        margin: auto;
+    }
+    #javascript-logo{
+        margin: auto;
+    }
+    #vue-logo{
+        margin: auto;
+    }
+    p{
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 15px;
+    }
+    #contact-title{
+        margin: auto;
+        margin-top: 10%;
+    }
+}
