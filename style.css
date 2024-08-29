@@ -149,26 +149,26 @@ footer{
     }
 }
 
-@media (max-width: 400px){
+@media (max-width: 600px){
    
     #java-logo{
         margin: auto;
     }
 
     #html-css-logo{
-        margin: 0;
+        margin: auto;
     }
     
     #python-logo{
-        margin: 0;
+        margin: auto;
     }
     
     #javascript-logo{
-        margin: 0;
+        margin: auto;
     }
     
     #springboot-logo{
-        margin: 0;
+        margin: auto;
     }
 
     p{
