@@ -122,6 +122,14 @@ footer{
 
 @media (max-width: 500px){
 
+    #title{
+        font-size: 250%;
+    }
+
+    #subtitle{
+        font-size: 225%;
+    }
+
     #program-and-header{
         font-size: large;
         margin-top: 10%;
