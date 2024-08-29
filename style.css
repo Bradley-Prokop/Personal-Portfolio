@@ -124,7 +124,8 @@ footer{
     }
     #subtitle{
         font-size: 220%;
-    
+        margin-top: 5%;
+        color: white;
     }
     #program-and-header{
         font-size: 100%;
