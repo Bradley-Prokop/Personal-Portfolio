@@ -131,6 +131,9 @@ footer{
         margin: auto;
         margin-top: 3%;
     }
+    #techIMG{
+        margin-bottom: 3%;
+    }
 }
 
 @media (max-width: 800px){
