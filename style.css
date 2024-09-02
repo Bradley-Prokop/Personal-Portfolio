@@ -135,7 +135,7 @@ footer{
         font-size: 220%;
         margin-top: 5%;
         animation: color-change 10s infinite alternate;
-        text-shadow: 2px 1px white;
+        text-shadow: 2px 1px gray;
     }
     #program-and-header{
         font-size: 100%;
