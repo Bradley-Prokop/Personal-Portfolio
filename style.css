@@ -12,6 +12,7 @@ body {
 #subtitle{
     font-size: 45px;
     margin-top: -35px;
+    animation: color-change 10s infinite alternate;
 }
 hr{
     border-color: lime;
