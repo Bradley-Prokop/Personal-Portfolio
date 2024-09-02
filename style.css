@@ -126,6 +126,13 @@ footer{
     100% { color: purple;}
   }
 
+@media (min-width: 1000px){
+    #contact-title{
+        margin: auto;
+        margin-top: 10%;
+    }
+}
+
 @media (max-width: 800px){
 
     #title{
@@ -134,8 +141,6 @@ footer{
     #subtitle{
         font-size: 220%;
         margin-top: 5%;
-        animation: color-change 10s infinite alternate;
-        text-shadow: 2px 1px gray;
     }
     #program-and-header{
         font-size: 100%;
