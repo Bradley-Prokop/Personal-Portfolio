@@ -136,8 +136,17 @@ p{
 footer{
     margin-top: 100px;
 }
+  
+@keyframes colorShift {
+    0% {
+    background-position: 0% 50%;
+}
+100% {
+    background-position: 200% 50%;
+}
+}
 
-@keyframes color-change {
+/* @keyframes color-change {
     0% { color: red; }
     14% {color: orangered;}
     29% { color: yellow; }
@@ -145,7 +154,7 @@ footer{
     57% {color: blue;}
     73% {color: indigo;}
     100% { color: purple;}
-  }
+  } */
 
 @media (min-width: 1000px){
     #contact-title{
@@ -161,7 +170,7 @@ footer{
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 900px){
 
     #title{
         font-size: 240%;
@@ -221,10 +230,9 @@ footer{
     #contact-title{
         margin: auto;
         margin-bottom: 5%;
-/*         margin-top: 5%; */
     }
     .extra-space{
-        margin-top: 65px;
+        margin-top: 50px;
     }
     footer{
         margin-top: 75px;
