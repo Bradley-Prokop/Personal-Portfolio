@@ -12,7 +12,7 @@ body {
 #subtitle{
     font-size: 45px;
     margin-top: -35px;
-    animation: color-change 10s infinite alternate;
+    animation: color-change 8s infinite alternate;
 }
 hr{
     border-color: lime;
@@ -196,7 +196,7 @@ footer{
     p{
         margin-left: 50px;
         margin-right: 50px;
-        font-size: 15px;
+        font-size: 17px;
     }
     #taken-title{
         margin-top: 10%;
@@ -206,7 +206,10 @@ footer{
     }
     #major-gpa{
         font-size: 25px;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
+    }
+    .cInfo{
+        font-size: 1rem;
     }
     #contact-title{
         margin: auto;
