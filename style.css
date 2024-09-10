@@ -155,7 +155,7 @@ footer{
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 900px){
 
     #title{
         font-size: 240%;
@@ -196,24 +196,26 @@ footer{
     p{
         margin-left: 50px;
         margin-right: 50px;
-        font-size: 17px;
+        font-size: 16px;
     }
     #taken-title{
         margin-top: 10%;
     }
     ul{
         font-size: 1rem;
-        font-weight: bold;
     }
     #major-gpa{
         font-size: 25px;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
     .cInfo{
-        font-size: 150px;
+        font-size: 1.25rem;
     }
     #contact-title{
         margin: auto;
-        margin-top: 30px;
+        margin-top: 10%;
+    }
+    footer{
+        margin-top: 75px;
     }
 }
