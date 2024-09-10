@@ -177,6 +177,7 @@ footer{
     }
     #header-And-List-container{
         margin: auto;
+        margin-bottom: 65px;
     }
     #java-logo{
         margin: auto;
@@ -199,7 +200,7 @@ footer{
         font-size: 16px;
     }
     #taken-title{
-        margin-top: 10%;
+        margin-top: 75px;
     }
     ul{
         font-size: 1rem;
@@ -213,7 +214,11 @@ footer{
     }
     #contact-title{
         margin: auto;
-        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-top: 5%;
+    }
+    .extra-space{
+        margin-top: 50px;
     }
     footer{
         margin-top: 75px;
