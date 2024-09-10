@@ -207,13 +207,13 @@ footer{
     }
     #major-gpa{
         font-size: 25px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     .cInfo{
-        font-size: 50px;
+        font-size: 150px;
     }
     #contact-title{
         margin: auto;
-        margin-top: 10%;
+        margin-top: 30px;
     }
 }
