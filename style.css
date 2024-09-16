@@ -53,24 +53,10 @@ hr{
 }
 .div-listitem{
    display: inline-block;
+   padding-right: 3%;
 }
 .lang-img{
     border-radius: 15%;
-}
-#html-css-logo{
-    margin-right: 40px;
-    margin-left: 70px;
-}
-#python-logo{
-    margin-left: 50px;
-}
-#javascript-logo{
-    margin-right: 50px;
-    margin-left: 50px;
-}
-#vue-logo{
-    margin-right: 50px;
-    margin-left: 50px;
 }
 h1{
     font-size: 50px;
@@ -146,16 +132,6 @@ footer{
 }
 }
 
-/* @keyframes color-change {
-    0% { color: red; }
-    14% {color: orangered;}
-    29% { color: yellow; }
-    42% {color: lime;}
-    57% {color: blue;}
-    73% {color: indigo;}
-    100% { color: purple;}
-  } */
-
 @media (min-width: 1000px){
     #contact-title{
         margin: auto;
@@ -218,7 +194,7 @@ footer{
         margin-top: 75px;
     }
     ul{
-        font-size: 20px;
+        font-size: 1rem;
     }
     #major-gpa{
         font-size: 25px;
