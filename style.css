@@ -185,11 +185,6 @@ footer{
     #vue-logo{
         margin: auto;
     }
-    p{
-        margin-left: 50px;
-        margin-right: 50px;
-        font-size: 19px;
-    }
     #taken-title{
         margin-top: 75px;
     }
@@ -200,11 +195,17 @@ footer{
         font-size: 25px;
         margin-bottom: 75px;
     }
+    p{
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 19px;
+    }
     .cInfo{
         font-size: 1.25rem;
     }
     #contact-title{
         margin: auto;
+        margin-top: 15%;
         margin-bottom: 5%;
     }
     .extra-space{
